@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q2Project</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<style>
+	.container-fluid { 
+		text-align: center;
+		 margin: 20px;
+		}
+	img{
+			height: 100px;
+			width: 130px;
+		}
+		body{
+			background-image: url('https://media.istockphoto.com/id/1258733624/vector/herbs-and-spices-seamless-pattern-ginger-spinach-onion-pepper-garlic-fennel-packaging.jpg?s=612x612&w=0&k=20&c=6Fioel8Vz9YjpamIfhS68KzPhPfgPbcX5gs_6fJQPzQ=');
+			background-repeat: no-repeat;
+			background-size: cover;
+		h1{
+			text-align: center;
+			color: #9c1b08;
+			font-family: cursive;
+		}
+		p{
+			text-align: center;
+			color: #140301;
+			font-family: cursive;
+		}
+		label{
+			font-family: cursive;
+		}
+		.nav-link{ 
+			color: #f5e12c; 
+		} 
+
+
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+	<!-- Brand/Logo -->
+<div class="container-fluid">
+	<a class="navbar-brand" href="index.html"><img src="https://dcassetcdn.com/design_img/3974548/882337/27273220/vmq81j0p81cm4957rx3gxy7fw4_image.png"></a>
+	<!-- Add links -->
+	<div class="collapse navbar-collapse">
+		<ul class="navbar-nav me-auto"></ul>
+		     <li class="nav-item">
+		          <a class="nav-link" href="categories.html">Categories</a>
+		     </li>
+		     <li class="nav-item">
+		          <a class="nav-link" href="submit.html">Submit Recipe</a>
+		     </li>
+		</ul>
+		<!-- Add text --> 
+		<span class="navbar-text mx-3"> Welcome to My Website! </span>
+		<!-- Add a search bar -->
+		<form class="d-flex">
+			 <input class="form-control" type="text" placeholder="search...">
+			 <button class="btn btn-success" type="button">Search</button>
+		</form>
+	</div>
+
+</div>	
+</nav>
+
+<div class="container-fluid">
+	<br>
+	<h1>Submit One of Your Recipes?</h1>
+	<div class="container">
+		<table class="table table-striped">
+		<form>
+			<div class="row">
+				<div class="col-md-6">
+				    <label for="name">Name:</label>
+				    <input type="text" class="form-control">
+				</div>
+				<div class="col-md-6">
+					<label for="age">Food:</label>
+					<br>
+					<input type="text" class="form-control">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+				    <label for="email">Email:</label>
+				    <input type="text" class="form-control">
+				</div>
+				<div class="col-md-6">
+					<label for="phone#">Phone Number:</label>
+					<br>
+					<input type="text" class="form-control">
+				</div>
+			</div>
+			<br>
+				<div class="col-md-12">
+					
+					<label for="reason">Add Ingredients and Steps:</label>
+					<br>
+					<div class="textarea-container">
+					<textarea id="reason" rows="5" cols="100" placeholder="Add Ingredients and Steps..."></textarea>
+			</div>
+			<br>
+				<div class="col-md-16">
+					<button class="btn btn-success">Submit</button>
+				</div>
+		</form>
+	</table>
+	</div>
+</body>
+</html>
